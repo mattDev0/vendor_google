@@ -58,6 +58,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/blueline/proprietary/product/etc/cne/andsfCne.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/andsfCne.xml \
     vendor/google/blueline/proprietary/product/etc/firmware/music_detector.descriptor:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.descriptor \
     vendor/google/blueline/proprietary/product/etc/firmware/music_detector.sound_model:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model \
+    vendor/google/blueline/proprietary/product/etc/permissions/com.google.android.apps.dreamliner.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.dreamliner.xml \
+    vendor/google/blueline/proprietary/product/etc/sysconfig/dreamliner.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/dreamliner.xml \
     vendor/google/blueline/proprietary/product/lib/libsecureuisvc_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libsecureuisvc_jni.so \
     vendor/google/blueline/proprietary/product/lib64/libsecureuisvc_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsecureuisvc_jni.so \
     vendor/google/blueline/proprietary/system_ext/lib/vendor.google.wifi_ext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.google.wifi_ext@1.0.so \
@@ -1309,6 +1311,8 @@ PRODUCT_PACKAGES += \
     EuiccSupportPixel \
     TimeService \
     com.qualcomm.qti.services.secureui \
+    DreamlinerPrebuilt \
+    DreamlinerUpdater \
     EuiccGoogle \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
