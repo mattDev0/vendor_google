@@ -1310,8 +1310,6 @@ PRODUCT_PACKAGES += \
     EuiccSupportPixel \
     TimeService \
     com.qualcomm.qti.services.secureui \
-    DreamlinerPrebuilt \
-    DreamlinerUpdater \
     EuiccGoogle \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
