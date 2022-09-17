@@ -265,9 +265,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/crosshatch/proprietary/vendor/firmware/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.mdt \
     vendor/google/crosshatch/proprietary/vendor/firmware/adspr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/adspr.jsn \
     vendor/google/crosshatch/proprietary/vendor/firmware/adspua.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/adspua.jsn \
-    vendor/google/crosshatch/proprietary/vendor/firmware/bdwlan-crosshatch-EVT1.0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan-crosshatch-EVT1.0.bin \
-    vendor/google/crosshatch/proprietary/vendor/firmware/bdwlan-crosshatch-EVT1.1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan-crosshatch-EVT1.1.bin \
-    vendor/google/crosshatch/proprietary/vendor/firmware/bdwlan-crosshatch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan-crosshatch.bin \
+    vendor/google/crosshatch/proprietary/vendor/firmware/bdwlan-blueline-EVT1.0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan-blueline-EVT1.0.bin \
+    vendor/google/crosshatch/proprietary/vendor/firmware/bdwlan-blueline-EVT1.1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan-blueline-EVT1.1.bin \
+    vendor/google/crosshatch/proprietary/vendor/firmware/bdwlan-blueline.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan-blueline.bin \
     vendor/google/crosshatch/proprietary/vendor/firmware/bdwlan-crosshatch-EVT1.0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan-crosshatch-EVT1.0.bin \
     vendor/google/crosshatch/proprietary/vendor/firmware/bdwlan-crosshatch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan-crosshatch.bin \
     vendor/google/crosshatch/proprietary/vendor/firmware/cdsp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b00 \
