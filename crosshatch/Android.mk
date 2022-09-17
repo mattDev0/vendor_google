@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),blueline)
+ifeq ($(TARGET_DEVICE),crosshatch)
 
 endif
