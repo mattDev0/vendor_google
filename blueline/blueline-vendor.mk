@@ -1407,7 +1407,14 @@ PRODUCT_PACKAGES += \
     vendor/google/blueline/proprietary/vendor/radio/qcril_database/upgrade/6_singapore_ecc_995.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_singapore_ecc_995.sql \
     vendor/google/blueline/proprietary/vendor/radio/qcril_database/upgrade/7_remove_germany_hard_ecc_110.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_remove_germany_hard_ecc_110.sql \
     vendor/google/blueline/proprietary/vendor/radio/qcril_database/upgrade/8_USCC_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_USCC_update_ecc_table.sql \
-    vendor/google/blueline/proprietary/vendor/radio/qcril_database/upgrade/9_taiwan_ecc_110_and_119.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_taiwan_ecc_110_and_119.sql
+    vendor/google/blueline/proprietary/vendor/radio/qcril_database/upgrade/9_taiwan_ecc_110_and_119.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_taiwan_ecc_110_and_119.sql \
+    vendor/google/blueline/proprietary/system_ext/etc/permissions/google-ril.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/google-ril.xml \
+    vendor/google/blueline/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.2.so \
+    vendor/google/blueline/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.3.so \
+    vendor/google/blueline/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
+    vendor/google/blueline/proprietary/system_ext/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.am@1.0.so \
+    vendor/google/blueline/proprietary/system_ext/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.callinfo@1.0.so \
+    vendor/google/blueline/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.3.so
 
 PRODUCT_PACKAGES += \
     CneApp \
